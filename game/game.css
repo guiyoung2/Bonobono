@@ -226,8 +226,10 @@ header {
   height: 82px;
   /* background: url("img/faker2.png") no-repeat center center; */
   /* background-size: 100px 82px; */
-  z-index: 10;
+  z-index: 1;
   transition: all 0.2s;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 .box_area > div:nth-child(2) > img.active {
   bottom: -10px;
