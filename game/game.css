@@ -177,6 +177,9 @@ header {
   height: 107px;
   position: relative;
   overflow: hidden;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 .forest {
   position: absolute;
@@ -228,12 +231,16 @@ header {
   /* background-size: 100px 82px; */
   z-index: 1;
   transition: all 0.2s;
-  -webkit-tap-highlight-color: transparent !important;
+  /* -webkit-tap-highlight-color: transparent !important; */
+  /* outline: none; */
   outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 .box_area > div:nth-child(2) > img.active {
   bottom: -10px;
   height: 82px;
-  -webkit-tap-highlight-color: transparent !important;
   outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
