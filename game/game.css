@@ -228,10 +228,12 @@ header {
   /* background-size: 100px 82px; */
   z-index: 1;
   transition: all 0.2s;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent !important;
   outline: none;
 }
 .box_area > div:nth-child(2) > img.active {
   bottom: -10px;
   height: 82px;
+  -webkit-tap-highlight-color: transparent !important;
+  outline: none;
 }
